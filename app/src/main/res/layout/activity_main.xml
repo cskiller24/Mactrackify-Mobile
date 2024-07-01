@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="15dp"
+        android:id="@+id/cardView5"
+        android:layout_width="397dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/Mactrackify"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/WelcomeCard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/space_mono"
+            android:text="Welcome to Trackify!"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="32dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="401dp"
+        android:layout_height="357dp"
+        android:backgroundTint="@color/Mactrackify"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView5"
+        app:layout_constraintVertical_bias="0.411">
+
+
+        <Button
+            android:id="@+id/Schedule"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="90dp"
+            android:backgroundTint="#2ba9e9"
+            android:drawableLeft="@drawable/schedule"
+            android:fontFamily="@font/space_mono"
+            android:text="Schedule"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/Locator"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="#2ba9e9"
+            android:drawableLeft="@drawable/locator"
+            android:fontFamily="@font/space_mono"
+            android:text="Locator"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/Data"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="175dp"
+            android:backgroundTint="#2ba9e9"
+            android:drawableLeft="@drawable/data"
+            android:fontFamily="@font/space_mono"
+            android:text="Data"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/Logout"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="260dp"
+            android:backgroundTint="#2ba9e9"
+            android:drawableLeft="@drawable/logout"
+            android:fontFamily="@font/space_mono"
+            android:text="Log-out"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

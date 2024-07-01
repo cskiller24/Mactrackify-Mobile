@@ -1,0 +1,57 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_image"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="TRACKCERTIFY"
+        android:fontFamily="@font/space_mono"
+        android:textSize="50dp"
+        android:textColor="#DFDFDF"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/Email"
+        android:fontFamily="@font/space_mono"
+        android:layout_width="298dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-89dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:fontFamily="@font/space_mono"
+        android:layout_width="298dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/Email"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/Login"
+        android:fontFamily="@font/space_mono"
+        android:backgroundTint="@color/Mactrackify"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password"
+        android:layout_centerHorizontal="true"
+        android:text="Login" />
+</RelativeLayout>

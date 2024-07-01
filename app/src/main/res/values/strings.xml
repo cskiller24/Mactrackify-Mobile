@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MactrackifyAlpha</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+    </string>
+
+    <string name="mapbox_access_token">pk.eyJ1IjoiY3NraWxsZXIyNCIsImEiOiJjbG56ajNqaDgweDZoMnFwOWwzcmsyeW1lIn0.3m7Ea1fh5uzvBn_XEE4p5A</string>
+    <string-array name="products">
+        <item>Product A</item>
+        <item>Product B</item>
+        <item>Product C</item>
+        <item>Product D</item>
+        <item>Product E</item>
+    </string-array>
+    <string-array name="promos">
+        <item>Tumbler</item>
+        <item>Umbrella</item>
+        <item>Headset</item>
+    </string-array>
+</resources>

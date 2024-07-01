@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idRLContainer"
+    android:background="@color/Mactrackify"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddSales">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="642dp"
+        android:fontFamily="@font/space_mono"
+        android:text="ADD SALES"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/CustomerName"
+        android:fontFamily="@font/space_mono"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="543dp"
+        android:background="#ffffff"
+        android:hint="Enter Customer Name: " />
+
+    <EditText
+        android:id="@+id/CustomerItem"
+        android:fontFamily="@font/space_mono"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="219dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="444dp"
+        android:background="#ffffff"
+        android:hint="Enter Customer Item: " />
+
+    <Button
+        android:id="@+id/AddItem"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="411dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="272dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/add_item"
+        android:fontFamily="@font/space_mono"
+        android:text="Add Item"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/CustomerQuantity"
+        android:layout_width="313dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="363dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:fontFamily="@font/space_mono"
+        android:inputType="number"
+        android:text="Quantity: " />
+
+</RelativeLayout>
